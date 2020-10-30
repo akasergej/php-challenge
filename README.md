@@ -13,7 +13,7 @@ Jurgis atsako:
 
 #### Instrukcija
 
-* Konuokte repositoriją į savo Github/Bitbucket ar kitą paskyrą
+* Klonuokte repositoriją į savo Github/Bitbucket ar kitą paskyrą
 * Paleiskite testus ir tvarkykite po vieną problema iš eilės
 * Sutvarkius vieną (ar kelias susijusias problemas) darykite commit/push į savo repositoriją, toliau tvarkykite kitą problemą
 
