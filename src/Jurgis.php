@@ -8,6 +8,10 @@ class Jurgis
 {
     public function responds(string $message): string
     {
+        if($this->checkGreeting($message)) {
+            return "Labas!";
+        }
+
         if($this->checkQuestion($message)) {
             return "Okis.";
         }
@@ -21,6 +25,14 @@ class Jurgis
         }
 
         return "Aha gerai.";
+    }
+
+    private function checkGreeting(string $message) 
+    {
+        if($message == "Sveiki" || $message == "LABAS") {
+            return true;
+        }
+        return false;
     }
 
 
