@@ -8,6 +8,21 @@ class Jurgis
 {
     public function responds(string $message): string
     {
-        //TODO: your code
+        if($this->checkQuestion($message)) {
+            return "Okis.";
+        }
+
+        return "Aha gerai.";
     }
+
+
+    private function checkQuestion(string $message) 
+    {
+        if(substr(trim($message), -1)=='?') {
+            return true;
+        }
+        return false;
+    }
+
+
 }
