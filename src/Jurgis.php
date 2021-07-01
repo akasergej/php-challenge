@@ -34,7 +34,7 @@ class Jurgis
 
     private function checkShout(string $message) 
     {
-        if(substr(trim($message), -1)=='!') {
+        if(mb_strtoupper($message) == $message && preg_match("/[a-z]/i", $message)) {
             return true;
         }
         return false;
