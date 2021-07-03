@@ -14,5 +14,8 @@
             "email": "irmantas.siupsinskas@zmones.lt"
         }
     ],
-    "require": {}
+    "require": {
+        "doctrine/orm": "^2.9",
+        "symfony/cache": "^5.3"
+    }
 }
