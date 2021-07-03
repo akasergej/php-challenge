@@ -10,6 +10,8 @@ Jurgis atsako:
 #### Paleidimas
 * `composer install --dev`
 * testai paleidžiami komanda `./vendor/bin/phpunit tests`
+* duomenų bazė sukuriama komanda `vendor/bin/doctrine orm:schema-tool:create`
+* webserveris paleidžiamas komanda `php -S localhost:8888 -t public`
 
 #### Instrukcija
 
